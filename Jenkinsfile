@@ -11,7 +11,7 @@ pipeline {
        //  }
         stage('Simulation') {
             steps {
-                runMATLABCommand(command: 'test_harness')
+                runMATLABCommand(command: 'test-harness')
             }       
         }
        // stage('Jmaab_check') {
